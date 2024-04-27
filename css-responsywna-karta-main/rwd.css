@@ -1,0 +1,36 @@
+@media (min-width:825px) and (max-width: 1024px) {
+    body{
+        font-size: 18px;
+    }
+  }
+
+@media (max-width: 800px) {
+    
+    body{
+        font-size: 18px;
+    }
+
+    .kontener{
+        flex-direction: column-reverse;
+        gap: 16px;
+    }
+
+    .tekst{
+        max-width: 100%;
+        text-align: center;
+    }
+
+    img{
+        min-width: 0px;
+    }
+
+    h1{
+        min-width: 0px;
+    }
+  }
+
+/* @media (width < 824px) {
+    body {
+        font-size: 18px;
+    }
+  } */

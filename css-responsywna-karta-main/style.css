@@ -1,0 +1,62 @@
+body{
+font-family: Arial, Helvetica, sans-serif;
+background-color: #f9f6ee;
+text-align: center;
+margin: 0;
+padding: 0;
+font-size: 22px;
+/* min-height: 100vh; */
+}
+
+
+.kontener{
+    background-color: #ffffff ;
+    border-radius: 16px;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+    box-shadow: 3px 3px 3px #858383, 1px 1px 2px #858383;
+}
+
+h1{
+    color: #6c63ff;
+}
+
+.tekst{
+    max-width: 55%;
+}
+
+img{
+    min-width:  300px;
+    height: auto;
+}
+
+p{
+    color: #56585d;
+}
+
+
+
+
+/* 
+* Czcionka: `Arial, sans-serif`
+* Kolor nagłówka: `#6c63ff`
+* Kolor tła strony: `#6c63ff`
+* Kolor tła karty: `#ffffff`
+* Kolor akapitów: `#56585d`
+* Maksymalna szerokość kontenera: `1200px`
+* Minimalna szerokość grafiki: `300px`
+* Zaokrąglenie narożników: `16px`
+* Maksymalna szerokość kontenera z tekstem dla desktop: `55%`
+* Podstawowa wielkość czcionki dla desktop: `22px`
+
+Dla urządzeń o szerokości od 825px - 1024px
+* Podstawowa wielkość czcionki: `18px`
+
+Dla urządzeń os szerokości poniżej: `824px`
+* Podstawowa wielkość czcionki: `18px` */
